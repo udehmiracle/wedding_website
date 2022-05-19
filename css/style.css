@@ -1,0 +1,182 @@
+    @font-face {
+        font-family: 'Milik';
+        src: url('/font/Gilroy-Medium.ttf') format('truetype');
+    }
+    
+    @font-face {
+        font-family: 'Gilroy-Medium';
+        src: url('/font/Gilroy-Medium.ttf') format('truetype');
+    }
+    
+     :root {
+        --human-right-red: hsl(4, 79%, 48%);
+        --white-color: hsl(0, 0%, 100%);
+        --flutterwave-color: hsl(30, 96%, 57%);
+        --disable-btn: hsl(0, 0%, 93%);
+        --btn-padding: 0.9375rem 1.875rem;
+        --border-radius: 0.625rem;
+        --font-header: 'Gilroy-Medium', sans-serif;
+    }
+    
+    html {
+        font-family: 'Gilroy-Medium';
+        src: url(/fonts/Gilroy-Medium.ttf) format("truetype");
+        padding-inline-start: 20px;
+        padding-inline-end: 20px;
+    }
+    /* ====Global Styles */
+    
+    li {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: hsl(249, 81%, 43%);
+    }
+    
+    .container {
+        width: 100%;
+        max-width: 72.8125rem;
+        margin: 0 auto;
+    }
+    /* ===========MAIN STYLE=========== */
+    
+    .nav__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        box-shadow: 10px 10px 10px hsl(0, 0%, 78%);
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    
+    .nav__list .logo img {
+        width: 60px;
+        height: 60px;
+        margin-left: 30px;
+    }
+    
+    .nav__list .header_items {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        gap: 100px;
+    }
+    
+    .btn-primary a {
+        color: black;
+        outline: 2px solid hsl(249, 81%, 43%);
+        padding: var(--btn-padding);
+        /* transform: scale(); */
+        transition-property: all;
+        transition-timing-function: ease-out;
+        transition-delay: .4s;
+        transition-duration: .5s;
+        border-radius: var(--border-radius);
+        -webkit-border-radius: var(--border-radius);
+        -moz-border-radius: var(--border-radius);
+        -ms-border-radius: var(--border-radius);
+        -o-border-radius: var(--border-radius);
+    }
+    
+    .btn-primary a:hover {
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(249, 81%, 43%);
+        outline: none;
+        border: none;
+    }
+    
+    main {
+        margin-top: 100px;
+    }
+    
+    marquee p {
+        margin-top: 50px;
+        color: hsl(240, 100%, 50%);
+    }
+    
+    main .hero .hero_img {
+        width: 25rem;
+        height: 32.5rem;
+        background-image: url('/img/bac_img.jpg');
+        background-position: 60% 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .hero {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+    }
+    
+    main .hero .hero_img,
+    main .hero .hero_img-1 img,
+    main .hero .hero_img-2 img,
+    main .hero .hero_img-3 img,
+    main .hero .hero_img-4 img {
+        width: 400px;
+        height: 250px;
+        margin-top: 20px;
+        border-radius: 30px 30px;
+        -webkit-border-radius: 30px 30px;
+        -moz-border-radius: 30px 30px;
+        -ms-border-radius: 30px 30px;
+        -o-border-radius: 30px 30px;
+    }
+    
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        font-size: 50px;
+    }
+    
+    .service {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 200px;
+    }
+    /* .profile_1 img,
+    .profile_2 img,
+    .profile_3 img {
+        width: 250px;
+        height: 150px;
+    } */
+    
+    .profile_1 p,
+    .profile_2 p,
+    .profile_3 p {
+        width: 150px;
+        height: 20px;
+    }
+    
+    .footer-container .footer-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        height: 50vh;
+        background-color: blue;
+        gap: 300px;
+    }
+    
+    .footer-items .one .headline,
+    .footer-items .two .headline {
+        margin-left: 40px;
+    }
+    
+    .footer-items .one .footer-list li a,
+    .footer-items .two .footer-list li a {
+        line-height: 5;
+        margin-right: 150px;
+        color: white;
+    }
+    
+    .two {
+        margin-bottom: 25px;
+    }
