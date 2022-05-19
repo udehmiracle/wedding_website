@@ -1,11 +1,11 @@
     @font-face {
         font-family: 'Milik';
-        src: url('/font/Gilroy-Medium.ttf') format('truetype');
+        src: url('font/Gilroy-Medium.ttf') format('truetype');
     }
     
     @font-face {
         font-family: 'Gilroy-Medium';
-        src: url('/font/Gilroy-Medium.ttf') format('truetype');
+        src: url('font/Gilroy-Medium.ttf') format('truetype');
     }
     
      :root {
@@ -20,7 +20,7 @@
     
     html {
         font-family: 'Gilroy-Medium';
-        src: url(/fonts/Gilroy-Medium.ttf) format("truetype");
+        src: url(font/Gilroy-Medium.ttf) format("truetype");
         padding-inline-start: 20px;
         padding-inline-end: 20px;
     }
