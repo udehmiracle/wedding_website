@@ -101,7 +101,7 @@
     main .hero .hero_img {
         width: 25rem;
         height: 32.5rem;
-        background-image: url('/img/bac_img.jpg');
+        background-image: url('img/bac_img.jpg');
         background-position: 60% 100%;
         background-repeat: no-repeat;
         background-size: cover;
