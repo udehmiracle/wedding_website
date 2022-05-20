@@ -19,8 +19,7 @@
     }
     
     html {
-        font-family: 'Gilroy-Medium';
-        src: url("font/Gilroy-Medium.ttf") format("truetype");
+        font-family: var(--font-header);
         padding-inline-start: 20px;
         padding-inline-end: 20px;
     }
@@ -154,12 +153,6 @@
         align-items: center;
         gap: 200px;
     }
-    /* .profile_1 img,
-    .profile_2 img,
-    .profile_3 img {
-        width: 250px;
-        height: 150px;
-    } */
     
     .profile_1 p,
     .profile_2 p,
